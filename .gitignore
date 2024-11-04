@@ -1,0 +1,28 @@
+containers
+/containers
+
+.env
+.idea/*
+.DS_Store
+
+/buillder
+debug.log
+/node_modules
+node_modules
+package-lock.json
+.phpintel
+vendor/
+*.zip
+!backup/*.zip
+
+## Uploads (only wp generated thumbnails) ##
+*/uploads/**/**/*-[0-9]*x[0-9]*.*
+*/uploads/woocommerce_uploads
+*/uploads/wc-logs
+*/uploads/elementor
+wp-content/uploads/astra
+wp-content/uploads/astra-addon/
+wp-content/uploads/astra-docs/
+
+# Ignore placeholder-7.png file placeholder-1.png, placeholder-*.png
+**/placeholder*.png
